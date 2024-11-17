@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ant-layout-header {
+    height: 64px;
+    padding: 0 50px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 64px;
+    background: rgba(250, 251, 252, .1);
+}
+
+.app-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.myPlotTabs.ant-tabs .ant-tabs-tab{
+background-color: #f0f0f04a;
+}
+.myPlotTabs.ant-tabs .ant-tabs-tab.ant-tabs-tab-active {
+    background-color: #00ff1121;
+}
+.myPlotTabs.ant-tabs-left >.ant-tabs-nav .ant-tabs-ink-bar{
+    left: 0px;
+}
+.myPlotTabs.ant-tabs .ant-tabs-content-holder{
+    width: 98%;
+    height: 90%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px 33px 10px 0px;
+}
+
+/* .ant-drawer .ant-drawer-body{
+    padding: 12px 0px;
+} */
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners{
+    height: 300px;
+}
